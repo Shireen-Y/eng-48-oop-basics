@@ -67,3 +67,38 @@ Add your definitions here
 - Write nice documentation for how to import and use our code
 - Use inheritance and importing to hide the code
 - Ultimately we can package it into a module that could be imported with PIP 
+
+
+## Task:
+Create a new project
+
+- Create a class Animal:
+- Characteristics:
+    - Alive
+    - Bones
+- Methods:
+    - Eat
+    - Sleep
+    - Make_sound()
+
+- Create a class Dog()
+- Make it inherit from Animals
+- Give it all the attributes of Animal +:
+    - Owner
+    - Name
+    - id_number
+    - Dog_collar
+- Methods:
+    - All the other ones +:
+        - Eat_bone
+        - Run
+        - Greet_owner
+        - Polymorph the method make_sound to return the string 'Woof'
+- One of these methods needs to take an argument
+- Another method should have a default value
+
+- Have a run file:
+    - Import all your classes
+    - Create 2 animals
+    - Create 2 dogs
+    - Call some methods on them
